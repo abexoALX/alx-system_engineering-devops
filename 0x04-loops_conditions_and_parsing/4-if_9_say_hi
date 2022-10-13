@@ -5,11 +5,11 @@ count=0
 
 while [ $count -lt 10 ]
 do
-	if [ $count eq 9 ]
+	if [ $count -lt 9 ]
 	then
-		echo "Hi"
-	else
 		echo "Best School"
+	else
+		echo "Hi"
 	fi
 
         (( count++ ))
