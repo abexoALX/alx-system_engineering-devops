@@ -4,6 +4,6 @@
 i=0
 until [ $i -lt 10]
 do
-	echo"Best School"
+	echo "Best School"
 	i=$(( i+1 ))
 done
