@@ -12,11 +12,13 @@ do
 	if (( number % 3 == 0 && number % 5 == 0 ))
 	then
 		echo "FizzBuzz"
-	elif (( number %3 == 0 ))
+	elif (( number % 3 == 0 ))
 	then
 		echo "Fizz"
-	else
+	elif (( number % 5 == 0 ))
 		echo "Buzz"
+	else
+		echo "$number"
 	fi
 	(( number++ ))
 done
