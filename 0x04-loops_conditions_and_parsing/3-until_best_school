@@ -2,8 +2,8 @@
 # Displays "Best School" 10 times using a until loop.
 
 i=0
-until [ $i -lt 10]
+until [ $i -eq 10]
 do
 	echo "Best School"
-	i=$(( i+1 ))
+	(( i++ ))
 done
