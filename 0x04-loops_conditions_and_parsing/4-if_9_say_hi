@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Displays "Best School" 9 times using an while loop but if the couner is equal to 9 say hi.
+# Displays "Best School" 9 times using an while loop.
+# On the 9th iteration, displays "Hi" before "Best School"..
 
 count=0
 
