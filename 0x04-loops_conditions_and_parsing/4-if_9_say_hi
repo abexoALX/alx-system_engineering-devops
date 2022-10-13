@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Displays "Best School" 9 times using an while loop but if the couner is equal to 9 say hi.
+
+count=0
+
+while [ $count -lt 10 ]
+do
+	if [ $count eq 9 ]
+	then
+		echo "Hi"
+	fi
+
+        echo "Best School"
+        (( count++ ))
+done
