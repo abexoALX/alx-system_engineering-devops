@@ -2,6 +2,4 @@
 # Bash script that kills the process 7-highlander
 # started 7-highlander in Terminal 0 and then run 8-beheaded_process in terminal 1
 
-pid = ps -x | grep ./7-highlander
-
-kill $pid
+kill ps -x | grep ./7-highlander
