@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# kills the infinity and beyond program
+# kill or killall can not be used
+
+
+
+pkill ./4-to_infinity_and_beyond
+
+
