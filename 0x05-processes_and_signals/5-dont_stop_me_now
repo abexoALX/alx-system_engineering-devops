@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Bash script that stops 4-to_infinity_and_beyond process
+# kill command must be used
+
+# Terminate the infinate process
+if [ -n "$id" ]
+then
+	kill -15 "$id"
+fi
