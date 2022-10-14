@@ -2,4 +2,4 @@
 # Bash script that displays the PID
 # ps can not be used
 
-pgrep -a bash
+pgrep -l bash
