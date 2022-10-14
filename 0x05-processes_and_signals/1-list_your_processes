@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script  displays all process running.
+# Display in a user-oriented format
+# Show process hierarchy
+
+echo "PS auxf"
