@@ -3,9 +3,9 @@
 #include "unistd.h"
 
 /**
- *  * infinite_while - a function that runs forever and returns nothing
- *   * Return: 0 in the end
- *    */
+ * infinite_while - a function that runs forever and returns nothing
+ * Return: 0 in the end
+ */
 int infinite_while(void)
 {
 	while (1)
@@ -16,13 +16,14 @@ int infinite_while(void)
 }
 
 /**
- *  * main - the entry to a program that creates 5 zombie process
- *   * Return: 0 on success
- *    */
+ * main - the entry to a program that creates 5 zombie process
+ * Return: 0 on success
+ */
 int main(void)
 {
 	int children = 0;
 	pid_t pid;
+
 	while (children < 5)
 	{
 		pid = fork();
