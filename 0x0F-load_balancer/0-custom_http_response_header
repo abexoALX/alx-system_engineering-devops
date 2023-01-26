@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2154
+# configures web-o3 to be identical to web-01
+
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install nginx
+sudo service nginx start
+sudo sh -c 'echo "Hello World!" > /var/www/html/index.html'
+sudo sed -i '/listen 80 default_server;/a add_header X-Served-By $hostname;' /etc/nginx/sites-available/default
+sudo service nginx restart
